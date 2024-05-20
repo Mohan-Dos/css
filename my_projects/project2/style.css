@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+ul li{
+display: inline-block;
+
+}
+nav a{
+    text-decoration: none;
+    padding: 10px 40px;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.logo{
+    padding: 0 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: orange;
+    cursor: pointer;
+}
+.search{
+    padding: 10px 20px;
+    background-color: orange;
+    margin-right: 40px;
+    color: white;
+    margin-left: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.input{
+    padding: 10px 20px;
+    margin-right: 0px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+}
+
+.body{
+    width: 100%;
+    display: flex;
+
+}
+.content {
+    width: 60%;
+    margin-left: 50px;
+    display: inline-block;
+    
+    
+}
+.content p{
+    margin-top: 14%;
+    color: white;
+    
+}
+.one{
+    font-size: 50px;
+    
+  
+
+}
+.develop{
+    font-size: 70px;
+    color: orangered;
+}
+button{
+    padding: 5px 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: orangered;
+}
+.login{
+    
+    background-color: black;
+    color: white;
+    width: auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 50px auto;
+   
+}
+.here{
+    padding: 10px 20px;
+    background-color: white;
+    color: orangered;
+    width: 200px;
+    border-radius: 10px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.form input{
+    background: transparent;
+    
+    border: none;
+    border-bottom: 1px solid orangered;
+    width: 250px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    font-size: 13px;
+    color: white;
+}
+.form input:focus{
+    
+   
+    outline: none;
+}
+.log{
+    background-color: orangered;
+    width: 230px;
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+.sign{
+    color: orangered;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.social li{
+    list-style: none;
+
+}
+.social a{
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
