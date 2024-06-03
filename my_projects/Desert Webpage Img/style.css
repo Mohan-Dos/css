@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+   background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(background.png);
+   position: relative;
+   overflow-x: hidden;
+}
+
+
+.logo img{
+    width: 50px;
+    margin-left: 55px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+
+}
+ul li{
+   display: inline-block;
+   margin: 0px 40px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+.content{
+    width: 50%;
+    position: absolute;
+   top: 250px;
+   left: 70px;
+
+}
+.content h1{
+    font-size: 100px;
+    margin: 0;
+}
+.content p{
+    margin: 0;
+}
+.content button{
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+
+.images{
+    width: 40%;
+    display: grid;
+    grid-template-columns: 210px 210px;
+    row-gap: 20px;
+    position: absolute;
+    right: 10px;
+    column-gap: 20px;
+    
+    
+
+}
+.images img{
+   width: 210px;
+   border-radius: 10px;
+   height: 250px;
+}
+.run{
+    width: 400px;
+    height: 300px;
+    mix-blend-mode: multiply;
+    animation: run 10s ease-in-out;
+    position: relative;
+    z-index: -1;
+    animation-fill-mode: forwards;
+
+}
+@keyframes run {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(500%);
+        
+    }
+}
